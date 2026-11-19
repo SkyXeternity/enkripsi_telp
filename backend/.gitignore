@@ -1,0 +1,14 @@
+# Build outputs
+build/
+main
+crypto
+crypto_test
+*.o
+
+# Node dependencies (only needed later for optional tooling)
+node_modules/
+
+# macOS
+.DS_Store
+src/wait.c
+docs/
